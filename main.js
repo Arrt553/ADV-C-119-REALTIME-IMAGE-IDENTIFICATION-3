@@ -16,7 +16,7 @@ function draw(){
      else{
          console.log(results);
          document.getElementById("results_object_name").innerHTML = results[0].label;
-         document.getElementById("result_object_accuracy").innerHTML = results[0].confidence.toFixed(2);
+         document.getElementById("result_object_accuracy").innerHTML = results[0].label.confidence.toFixed(2);
      }
  }
  function modelLoaded(){
