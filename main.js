@@ -11,7 +11,7 @@ function draw(){
 }
  function gotResults(error,results){
      if(error){
-         console.error("an error occured" + error);
+         console.error(error);
      }
      else{
          console.log(results);
